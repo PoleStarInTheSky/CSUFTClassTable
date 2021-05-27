@@ -43,7 +43,7 @@ export default {
      *@param {string} inputClass - 班级，用一位数的字符串表示。
      */
      getClassTable(inputGrade,inputMajor,inputClass) {
-       axios.get('/json/'+inputGrade+inputMajor+inputClass+'班.json')
+       axios.get('https://ldkb-1257334448.cos.ap-guangzhou.myqcloud.com/json/'+inputGrade+inputMajor+inputClass+'班.json')
        .then(response=>{
           this.classTable=response.data;
           console.log(this.classTable);

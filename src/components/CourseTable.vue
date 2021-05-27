@@ -315,7 +315,7 @@
                     this.WekDayNow= date.getDay();
 
                     //初始化今天是开学第几周,这里设置为2020-09-14
-                    let dateStart = new Date(2020,8,14);
+                    let dateStart = new Date(2021,2,1);
                     //用这种方式生成，保证都是从0点开始的日期
                     let dateEnd = new Date(date.getFullYear(),date.getMonth(),date.getDate());
                     //从开学到现在过了几周，从开学到现在过了几天
